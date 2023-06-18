@@ -1,0 +1,25 @@
+ROTA USADA PARA ADICIONAR UM ITEM A O MENU
+http://localhost:3000/cardapio/
+
+ROTA PARA VER TODOS OS ITENS DO MENU
+http://localhost:3000/cardapio
+
+ROTA PARA VER UM ITEM ESPECIFICO DO MENU
+http://localhost:3000/cardapio/:id (substitua o ":id" pelo item que você deseja VER)
+
+ROTA PARA EDITAR UM ITEM DO MENU
+http://localhost:3000/cardapio/:id (substitua o ":id" pelo item que você deseja EDITAR)
+
+ROTA PARA APAGAR UM ITEM DO MENU
+http://localhost:3000/cardapio/:id (substitua o ":id" pelo item que você deseja DELETAR)
+
+
+cada item deve ser inserido da seguinte maneira:
+
+{
+    "nome": "X-tudo",
+    "descricao": "completo",
+    "preco": "R$25.00"
+}
+
+OBS: O ID É GERADO AUTOMATICAMENTE PELO CÓDIGO TODA VEZ QUE VOCÊ INSERIR UM NOVO ITEM A O MENU.
