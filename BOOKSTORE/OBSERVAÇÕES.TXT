@@ -1,0 +1,61 @@
+ROTA PARA CADASTRO DE USUÁRIOS É:
+
+http://localhost:3000/api/users
+
+preenchendo sa seguinte maneira exemplo:
+{
+	"name": "RAFAEL",
+	"email": "admin@gmail.com",
+	"password": "12345678910"
+}
+
+ROTA PARA VER TODOS OS USUÁRIOS:
+
+http://localhost:3000/api/users
+
+
+ROTA PARA VER SOMENTE UM USUÁRIO DO BANCO:
+http://localhost:3000/api/users/:id
+(:id) será exibido quando você puxar todos do banco, dessa forma você também conseguira acessar as outras rotas
+
+ROTA PARA EDITAR UM USUÁRIO:
+http://localhost:3000/api/users/:id
+
+ROTA PARA APAGAR UM USUÁRIO:
+http://localhost:3000/api/users/:id
+
+
+ROTA PARA CADASTRO DE LIVROS:
+http://localhost:3000/api/books
+preenchendo sa seguinte maneira exemplo:
+{
+	"name": "Artes da Guerra",
+	"author": "Sun Tzu"
+}
+
+
+ver todos os livros do banco:
+http://localhost:3000/api/books
+
+
+ver somente um livro do banco:
+http://localhost:3000/api/books/:id
+
+editar um livro do banco:
+http://localhost:3000/api/books/:id
+
+apagar um livro do BANCO
+http://localhost:3000/api/books/:id
+
+lembrando que a ID de todos os dados pode ser obtida através da rota GET.
+
+como o exemplo: 
+
+{
+	"_id": "6490c2b8ece67df36697bf2f",
+	"name": "Artes da Guerra",
+	"author": "Sun Tzu",
+	"__v": 0
+}
+
+e é isso valeu.
